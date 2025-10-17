@@ -1,7 +1,5 @@
 package projectsFacilimos;
-
 import java.util.Scanner;
-
 public class AlgoritmoIdade {
      
 	   public static void main(String[] args) {
@@ -27,12 +25,6 @@ public class AlgoritmoIdade {
 			   
 		   }
 		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
 	}
 }
+
