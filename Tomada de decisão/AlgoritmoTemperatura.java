@@ -1,5 +1,5 @@
 package projectsFacilimos;
-  import java.util.Scanner;
+import java.util.Scanner;
 public class AlgoritmoTemperatura {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner (System.in);
@@ -8,14 +8,10 @@ public class AlgoritmoTemperatura {
 		System.out.println("Escreva a temperatura em graus fahrenheit: ");
 		fahrenheit = ler.nextInt();
 		
-		
 		celsius = (fahrenheit - 32)*5/9;
-		
 		
 		System.out.println("A sua temperatura em graus celsius é: "+celsius);
 			
-		
-		
 		if (celsius < 0) {
 		
 		     System.out.println("Frio extremo");
@@ -42,5 +38,4 @@ public class AlgoritmoTemperatura {
 	
 	}
 
-	
 }
